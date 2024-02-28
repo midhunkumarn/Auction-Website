@@ -1,0 +1,149 @@
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+    border: 1px solid black;
+	padding: 0.5rem 1rem;
+	font-size: 2.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+    resize: none;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+
+ body {
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	color: #666;
+	}
+	h1 {
+	margin: 0 0 20px;
+	font-weight: 400;
+	color: #1c87c9;
+	}
+	p {
+	margin: 0 0 5px;
+	}
+	.main-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	}
+	form {
+	padding: 25px;
+	margin: 25px;
+	box-shadow: 0 2px 5px #f5f5f5; 
+	background: #f5f5f5; 
+	}
+	
+	.left-part{
+		background-size: cover;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.left-part .fas {
+		margin: 25px 10px 0;
+		font-size: 72px;
+		color: #000;
+		}
+	.fa-envelope {
+	transform: rotate(-20deg);
+	}
+	.fa-at , .fa-mail-bulk{
+	transform: rotate(10deg);
+	}
+	input, textarea {
+	width: calc(100% - 18px);
+	padding: 8px;
+	font-size: 40px;
+	margin-bottom: 20px;
+	border: 1px solid #1c87c9;
+	outline: none;
+	}
+	input::placeholder {
+	color: #666;
+	}
+	button {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background: #1c87c9; 
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	}
+	button:hover {
+	background: #2371a0;
+	}  
+	
+	
+.error-text{
+	color: #851923;
+	padding: 4px 6px;
+	text-align: center;
+	border-radius: 4px;
+	background: #ffe3e5;
+	border: 1px solid #dfa5ab;
+	margin-bottom: 15px;
+  }
+
+	@media (min-width: 568px) {
+	.main-block {
+	flex-direction: row;
+	}
+	.left-part, form {
+	width: 50%;
+	}
+	.left-part image{
+		height: 50px;
+		width: 100px;
+	}
+	.fa-envelope {
+	margin-top: 0;
+	margin-left: 20%;
+	}
+	.fa-at {
+	margin-top: -10%;
+	margin-left: 65%;
+	}
+	.fa-mail-bulk {
+	margin-top: 2%;
+	margin-left: 28%;
+	}
+	}

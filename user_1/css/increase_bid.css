@@ -1,0 +1,121 @@
+.container{
+    height: 60vh;
+    display: flex;
+    margin: 3rem 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+
+.head-img{
+    text-align: left;
+    padding-left: 7px;
+}
+.summary{
+    background-color: #f2f2f2;
+    width: 35%;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.detail{
+    margin: 10px 0;
+    padding: 0 10px;
+    align-items: center;
+    background-color: #18bdfe;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 40px;
+    margin: 15px 0;
+    padding: 7px;
+}
+.bid_button{
+    border: none;
+    background-color: red;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.checkout{
+    width: 100%;
+    background-color: #18bdfe;
+}
+.bid_button:hover, .checkout:hover{
+    background-color: #333;
+}
+.img-box{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border:  1px solid #18bdfe;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 50%;
+}
+button i{
+    color:black;
+    margin-right: 10px;
+}
+button i:hover{
+    color:blue;
+}
+
+.first-btn{
+    font-size:15px;
+    padding: 8px 22px;
+    background: #18bdfe;
+    
+}
+
+.error-text{
+    display: none;
+	color: #851923;
+	padding: 4px 6px;
+	text-align: center;
+	border-radius: 4px;
+	background: #ffe3e5;
+	border: 1px solid #dfa5ab;
+	margin-bottom: 15px;
+  }
+
+.empty{
+    height: 60vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty .fa-sharp{
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+.empty h1{
+    font-size: 40px;
+    margin-top: 15px;
+}

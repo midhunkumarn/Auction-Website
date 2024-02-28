@@ -1,0 +1,98 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+
+  body {
+    font-family:"Raleway",sans-serif;
+    background:#f8f8f8;
+  }
+
+  form .form {
+    margin:80px 0px 20px;
+    padding:0px 50px;
+  }
+
+  form .form h2 {
+    text-align:center;
+    color:#acacac;
+    font-size:40px;
+    font-weight:400;
+  }
+
+  form .form .grid {
+    margin-top:50px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+  }
+
+  form .form .grid .form-element {
+    width:400px;
+    height:300px;
+    box-shadow:0px 0px 20px 5px rgba(100,100,100,0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  form .form .grid .form-element h1{
+    text-align: center;
+    margin: 15px 15px;
+  }
+
+  form .form .grid .form-element input {
+    display:none;
+  }
+
+  form .form .grid .form-element img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+  .form .grid .form-element div {
+    position:relative;
+    height:40px;
+    margin-top:-40px;
+    background:rgba(0,0,0,0.5);
+    text-align:center;
+    line-height:40px;
+    font-size:13px;
+    color:#f5f5f5;
+    font-weight:600;
+  }
+
+  form .form .grid .form-element div span {
+    font-size:40px;
+  }
+
+  form .button{
+    position:relative;
+    margin: 70px 70px;
+    text-align: center;
+  }
+
+  form .button button{
+    padding: 10px 30px;
+    background: #91C3FB;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+  }
+
+  /*error text css*/
+  .error-text{
+    display:none;
+    width: fit-content;
+    color: #851923;
+    padding: 4px 6px;
+    text-align: center;
+    justify-self:center;
+    border-radius: 4px;
+    background: #ffe3e5;
+    border: 1px solid #dfa5ab;
+    margin-bottom: 15px;
+  }
